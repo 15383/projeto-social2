@@ -68,3 +68,14 @@ transform: translate(-3px , -3px);
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
 transition: transform .3s, border 1s;
 }
+
+@media screen and (max-width:600px) {
+    section#redes-sociais img {
+        float: none;
+        text-align: center;
+    
+    }
+    footer p {
+        display: none;
+    }
+}
